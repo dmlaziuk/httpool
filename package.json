@@ -1,0 +1,19 @@
+{
+  "name": "httpoll",
+  "version": "1.0.0",
+  "description": "A small example of polling an endpoint with RxJS",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "rxjs": "^6.3.3",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --mode=development"
+  }
+}
